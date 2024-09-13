@@ -17,6 +17,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  width: 100%;
+}
+
 /* Header stylings */
 .header-section {
   display: flex;
@@ -43,6 +47,12 @@ html {
 .nav-lists a:hover {
   color: var(--hover-color);
   cursor: pointer;
+}
+
+@media screen and (max-width: 56.25rem) {
+  .header-section {
+    flex-direction: column;
+  }
 }
 /* End of header stylings */
 
@@ -90,6 +100,19 @@ html {
 .home-container a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 37.5rem) {
+  .home-container h1 {
+    font-size: 4rem;
+    flex-wrap: nowrap;
+  }
+  .home-container p {
+    font-size: 1.7rem;
+  }
+  .home-container h3 {
+    margin: 2rem 35%;
+  }
+}
 /* End of Home stylings */
 /* About Us stylings */
 .about {
@@ -108,6 +131,7 @@ html {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 4rem;
+  flex-wrap: wrap;
 }
 
 .about-text {
@@ -127,6 +151,23 @@ html {
 .about-img img {
   width: 100%;
   height: 30rem;
+}
+
+@media screen and (max-width: 56.25rem) {
+  .about-container {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 4rem;
+  }
+
+  .about-img {
+    width: 90%;
+    order: 1;
+  }
+  .about-text {
+    width: 90%;
+    order: 2;
+  }
 }
 /* End of About Us styling */
 /* Spaces stylings */
@@ -192,6 +233,18 @@ html {
   font-size: 1.9rem;
   font-weight: 700;
 }
+
+@media screen and (max-width: 46.25rem) {
+  .space {
+    width: 60rem;
+  }
+}
+
+@media screen and (max-width: 40.63rem) {
+  .space {
+    margin: 0 2rem;
+  }
+}
 /* End of Spaces stylings */
 
 /* Amenities section styling */
@@ -230,6 +283,12 @@ html {
 
 .amenity i {
   padding-right: 1rem;
+}
+
+@media screen and (max-width: 37.5rem) {
+  .amenity {
+    width: 50rem;
+  }
 }
 /* End of Amenities section stylings */
 
@@ -334,5 +393,17 @@ footer {
   color: var(--hover-color);
   transform: translateX(3px);
   cursor: pointer;
+}
+
+@media screen and (max-width: 46.88rem) {
+  .contact-container {
+    display: block;
+    padding-left: 10rem;
+  }
+
+  .contact-details,
+  .contact-form {
+    padding-bottom: 3rem;
+  }
 }
 /* End of footer section stylings */
