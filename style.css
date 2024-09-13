@@ -1,4 +1,3 @@
-
 * {
   margin: 0;
   padding: 0;
@@ -158,16 +157,16 @@ html {
 /* End of Spaces stylings */
 
 /* Amenities section styling */
-.amenities{
+.amenities {
   padding: 3rem 0;
 }
 
-.amenities h2{
+.amenities h2 {
   font-size: 3rem;
   text-align: center;
 }
 
-.amenities-container{
+.amenities-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -175,39 +174,124 @@ html {
   margin: 2rem 2rem;
 }
 
-.amenity{
+.amenity {
   border: 1px solid var(--space-p-color-);
   width: 28rem;
   padding: 1rem;
 }
 
-.amenity h4{
+.amenity h4 {
   font-size: 2.3rem;
 }
 
-.amenity p{
+.amenity p {
   font-size: 1.7rem;
   padding-left: 1rem;
 }
 
-.amenity i{
+.amenity i {
   padding-right: 1rem;
 }
 
-.contact{
+.contact {
   background: var(--text-color);
   color: var(--text-color2);
+  height: 26rem;
 }
 
-.contact h2{
+.contact h2 {
   font-size: 3rem;
   text-align: center;
 }
 
-.contact-container{
+.contact-container {
   display: flex;
+  padding: 2rem 2rem;
 }
-.form{
+
+.contact-details {
+  width: 30%;
+  font-size: 1.7rem;
   display: block;
 }
-/* End of Amenities section stylings *
+
+.contact-details h4 {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.contact-details p {
+  padding-bottom: 1rem;
+}
+
+.socials {
+  color: var(--text-color2);
+  gap: 2rem;
+  font-size: 2rem;
+  transition: all ease 0.5s;
+}
+
+.socials:hover {
+  color: var(--hover-color);
+}
+
+.email {
+  color: var(--text-color2);
+}
+
+.contact-form {
+  width: 40%;
+}
+
+.form-details {
+  display: flex;
+  padding-bottom: 1rem;
+}
+
+label {
+  font-size: 1.7rem;
+  padding-right: 2rem;
+}
+
+.form-details textarea {
+  margin-left: 1.3rem;
+}
+
+.btn1 {
+  background: var(--secondary-color);
+  border: none;
+  width: 26rem;
+  height: 3rem;
+  cursor: pointer;
+  border-radius: 4px;
+  color: var(--text-color2);
+}
+
+footer {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.more-info h4 {
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.services a {
+  text-decoration: none;
+}
+
+.services p {
+  font-size: 1.7rem;
+  color: var(--text-color2);
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  transition: all ease 0.5s;
+}
+
+.services p:hover {
+  color: var(--hover-color);
+  transform: translateX(3px);
+  cursor: pointer;
+}
+/* End of Amenities section stylings */
