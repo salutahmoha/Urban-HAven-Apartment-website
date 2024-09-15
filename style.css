@@ -191,10 +191,13 @@ body {
   border: 1px solid var(--space-p-color-);
   border-radius: 1rem;
   overflow: hidden;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
+  transition: box-shadow 0.3s ease;
 }
 
 .space:hover {
   cursor: pointer;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
 .space img {
   width: 100%;
@@ -227,6 +230,13 @@ body {
   cursor: pointer;
   border-radius: 4px;
   color: var(--text-color2);
+  transition: all ease .5s;
+}
+
+.btn:hover{
+  background: transparent;
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
 }
 
 .space h4 {
