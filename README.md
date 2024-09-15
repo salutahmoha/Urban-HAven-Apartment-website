@@ -19,4 +19,4 @@ To run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/urban-haven-apartments.git
+   https://github.com/salutahmoha/Urban-HAven-Apartment-website.git
