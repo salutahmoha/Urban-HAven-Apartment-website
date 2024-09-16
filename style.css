@@ -417,10 +417,15 @@ footer {
 @media screen and (max-width: 56.25rem) {
   .contact-form{
     flex-wrap: wrap;
+    margin-left: 20%;
   }
   .contact-details{
     display: block;
     padding: 0;
+  }
+  .contact-info{
+    text-align: center;
+    padding-left: 20%;
   }
   .btn1{
     width: 35rem;
