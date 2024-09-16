@@ -68,7 +68,7 @@ body {
 .home-container {
   text-align: center;
   color: var(--text-color2);
-  padding-top: 11rem;
+  padding-top: 17rem;
 }
 
 .home-container h1 {
@@ -78,6 +78,7 @@ body {
 
 .home-container p {
   font-size: 2rem;
+  margin-top: 2rem;
 }
 
 .home-container h3 {
@@ -86,7 +87,7 @@ body {
   color: var(--text-color2);
   justify-content: center;
   width: 15rem;
-  margin: 2rem 45%;
+  margin: 3rem 45%;
   font-size: 1.7rem;
   border-radius: 5px;
   transition: all ease 0.5s;
@@ -116,7 +117,7 @@ body {
 /* End of Home stylings */
 /* About Us stylings */
 .about {
-  margin-top: 4rem;
+  margin-top: 6rem;
 }
 
 .about h2 {
@@ -173,6 +174,7 @@ body {
 /* Spaces stylings */
 .available-space {
   width: 100%;
+  margin-top: 6rem;
 }
 
 .available-spaces {
@@ -260,7 +262,7 @@ body {
 /* Amenities section styling */
 .amenities {
   padding: 3rem 0;
-  margin-top: 3rem;
+  margin-top: 6rem;
 }
 
 .amenities h2 {
@@ -384,6 +386,7 @@ label {
 }
 .form-details input{
   width: 32rem;
+  height: 3.5rem;
 }
 
 
@@ -417,7 +420,7 @@ footer {
 @media screen and (max-width: 56.25rem) {
   .contact-form{
     flex-wrap: wrap;
-    margin-left: 20%;
+    margin-left: 25%;
   }
   .contact-details{
     display: block;
